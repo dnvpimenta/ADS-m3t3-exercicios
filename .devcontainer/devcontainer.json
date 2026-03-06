@@ -1,2 +1,1 @@
-ms-python.python
-://mcr.microsoft.com
+"postCreateCommand": "pip3 install -r requirements.txt"
