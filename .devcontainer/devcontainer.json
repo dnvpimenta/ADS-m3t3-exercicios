@@ -1,3 +1,18 @@
-"postCreateCommand": "pip3 install -r requirements.txt"
-ms-python.python
-://mcr.microsoft.com
+{
+  "name": "Python 3",
+  "image": "://mcr.microsoft.com",
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {
+      "installDevtools": true
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance"
+      ]
+    }
+  },
+  "postCreateCommand": "pip3 install -r requirements.txt"
+}
