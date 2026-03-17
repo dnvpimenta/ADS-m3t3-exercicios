@@ -1,7 +1,5 @@
-pip install psycopg2
-pip install faker
-
 import psycopg2
+from faker import Faker
 
 conn = psycopg2.connect(
        database="lojadb",
